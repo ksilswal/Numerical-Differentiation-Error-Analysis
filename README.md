@@ -11,15 +11,15 @@ instability.
 Three finite-difference schemes were implemented:
 - **Forward difference:**  
   \[
-  f'(x) \approx \frac{f(x+h) - f(x)}{h}
+  f'(x)\approx\frac{f(x+h) - f(x)}{h}
   \]
 - **Backward difference:**  
   \[
-  f'(x) \approx \frac{f(x) - f(x-h)}{h}
+  f'(x) \approx\frac{f(x) - f(x-h)}{h}
   \]
 - **Central difference:**  
   \[
-  f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
+  f'(x) \approx\frac{f(x+h) - f(x-h)}{2h}
   \]
 
 Each method was applied to several analytic test functions, including
